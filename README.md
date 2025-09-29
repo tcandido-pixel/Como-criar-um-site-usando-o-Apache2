@@ -12,5 +12,5 @@ veja que o site é apenas o index.html. vamos modificar para exemplo de como fun
 remova o arquivo com o comando: sudo rm -rf index.html. Agora vamos criar outro arquivo com o mesmo nome e iremos modificar. digite: sudo nano index.html.
 Digite o mesmo codigo simples HTML para teste. depois saia do nano CTRL + X e enter para confirmar e CTRL + O para salvar.
 Atualize a pagina e veja como ficou. 
-ago
-
+Agora iremos melhorar o site com alguns exemplos disponiveis na internet. escolhi o site pronto do matheus.(https://github.com/matheusmanuel/site-simples-com-html-e-css-)
+Para instalar, iremos fazer a clonagem dos arquivos. mas antes vamos instalar o github com o seguinte comando: sudo apt install git -y.
