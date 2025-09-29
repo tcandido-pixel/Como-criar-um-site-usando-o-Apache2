@@ -7,4 +7,5 @@ agora vamos iniciar e habiliatar os serviços digitando primeiro: sudo systemctl
 verifique se está rodando: systemctl status apache2.
 Agora vamos verificar qual o IP esta rodando o site. No terminal digite: ip a.
 Depois de encontrar o ip local, teste no navegador. irá aparecer um site exemplo. Caso não tenha localizado o seu ip, pode acesar o site digitando http://localhost/.
-Agora iremos melhorar o site. vamos localizar o diretorio. no terminal digite: cd /var/www/html/.
+Agora iremos melhorar o site. vamos localizar o diretorio. no terminal digite: cd /var/www/html/. depois iremos listar, digite: ls.
+veja que o site é apenas o index.html. vamos modicar para exemplo de como funciona.
