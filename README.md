@@ -14,3 +14,5 @@ Digite o mesmo codigo simples HTML para teste. depois saia do nano CTRL + X e en
 Atualize a pagina e veja como ficou. 
 Agora iremos melhorar o site com alguns exemplos disponiveis na internet. escolhi o site pronto do matheus.(https://github.com/matheusmanuel/site-simples-com-html-e-css-)
 Para instalar, iremos fazer a clonagem dos arquivos. mas antes vamos instalar o github com o seguinte comando: sudo apt install git -y.
+agora vamos fazer a clonagem. no github, em code, copie o https. digite o comando sudo git clone https://github.com/matheusmanuel/site-simples-com-html-e-css-.git.
+pos baixar, veja o arquivo (comando ls), para visualizar dentro do arquivo digite cd site-simples-com-html-e-css-. pos isso de um ls.
