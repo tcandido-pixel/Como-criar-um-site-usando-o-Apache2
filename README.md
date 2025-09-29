@@ -10,4 +10,5 @@ Depois de encontrar o ip local, teste no navegador. irá aparecer um site exempl
 Agora iremos melhorar o site. vamos localizar o diretorio. no terminal digite: cd /var/www/html/. depois iremos listar, digite: ls.
 veja que o site é apenas o index.html. vamos modicar para exemplo de como funciona.
 remova o arquivo com o comando: sudo rm -rf index.html. Agora vamos criar outro arquivo com o mesmo nome e iremos modificar. digite: sudo nano index.html.
+Digite o mesmo codigo simples HTML para teste.
 
