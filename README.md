@@ -9,7 +9,8 @@ Este guia explica como instalar e configurar o Apache2 em uma máquina virtual L
 Baixe e instale uma distribuição Linux no VirtualBox (ex.: Ubuntu ou Debian).
 
 Após a instalação, abra o terminal com:
-- CTRL + ALT + T
+
+- ```CTRL + ALT + T```
 
 ---
 
@@ -17,7 +18,7 @@ Após a instalação, abra o terminal com:
 
 Digite o comando abaixo para atualizar o sistema:
 
-- sudo apt update && sudo apt upgrade -y
+- ```sudo apt update && sudo apt upgrade -y```
 
 ---
 
@@ -25,19 +26,19 @@ Digite o comando abaixo para atualizar o sistema:
 
 Instale o Apache2:
 
-- sudo apt install apache2 -y
+- ```sudo apt install apache2 -y```
 
 
 Inicie e habilite o serviço:
 
-- sudo systemctl start apache2
+- ```sudo systemctl start apache2```
   
-- sudo systemctl enable apache2
+- ```sudo systemctl enable apache2```
 
 
 Verifique se está em execução:
 
-- systemctl status apache2
+- ```systemctl status apache2```
 
 ---
 
@@ -45,16 +46,16 @@ Verifique se está em execução:
 
 Para saber o IP local da máquina:
 
-- ip a
+- ```ip a```
 
 
 Agora, abra o navegador e acesse:
 
-- http://seu-ip-local
+- ```http://seu-ip-local```
   
 ou
 
-- http://localhost/
+- ```http://localhost/```
 
 Você verá a página padrão do Apache2. ✅
 
@@ -64,17 +65,17 @@ Você verá a página padrão do Apache2. ✅
 
 Entre no diretório do site:
 
-- cd /var/www/html/
+- ```cd /var/www/html/```
   
-- ls
+- ```ls```
 
 Remova o arquivo padrão:
 
-- sudo rm -rf index.html
+- ```sudo rm -rf index.html```
 
 Crie um novo arquivo index.html:
 
-- sudo nano index.html
+- ```sudo nano index.html```
 
 Digite um exemplo simples em HTML:
 ```
@@ -95,30 +96,30 @@ Atualize a página no navegador para ver o resultado.
 
 Antes de clonar, instale o Git:
 
-- sudo apt install git -y
+- ```sudo apt install git -y```
 
 Clone um site pronto (exemplo do Matheus):
 
-- sudo git clone https://github.com/matheusmanuel/site-simples-com-html-e-css-.git
+- ```sudo git clone https://github.com/matheusmanuel/site-simples-com-html-e-css-.git```
 
 Acesse a pasta clonada:
 
-- cd site-simples-com-html-e-css-
-- ls
+- ```cd site-simples-com-html-e-css-```
+- ```ls```
 
 Volte para a pasta anterior: 
 
-- cd ..
+- ```cd ..```
   
 Apague o arquivo index.html:
 
-- sudo rm -rf index.html
+- ```sudo rm -rf index.html```
   
 Copie os seguintes arquivos:
 
 - ```sudo cp site-simples-com-html-e-css-/index.html```
 
-- sudo cp site-simples-com-html-e-css-/style.css
+- ```sudo cp site-simples-com-html-e-css-/style.css```
 
 - 
   
