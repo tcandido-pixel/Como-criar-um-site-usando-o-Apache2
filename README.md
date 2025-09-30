@@ -59,3 +59,34 @@ ou
 Você verá a página padrão do Apache2. ✅
 
 ---
+
+# 5️⃣ Editar arquivos do site
+
+Entre no diretório do site:
+
+- cd /var/www/html/
+  
+- ls
+
+Remova o arquivo padrão:
+
+- sudo rm -rf index.html
+
+Crie um novo arquivo index.html:
+
+- sudo nano index.html
+
+Digite um exemplo simples em HTML:
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Meu Site</title>
+  </head>
+  <body>
+    <h1>Funcionou! 🚀</h1>
+  </body>
+</html>
+
+Salve (CTRL + O + ENTER) e saia (CTRL + X).
+Atualize a página no navegador para ver o resultado.
