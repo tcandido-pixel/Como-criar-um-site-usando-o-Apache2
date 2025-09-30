@@ -127,6 +127,6 @@ Copie os seguintes arquivos:
 
 Remova o arquivo baixado:
 
--```sudo rm -rf site-simples-com-html-e-css-/```
+- ```sudo rm -rf site-simples-com-html-e-css-/```
   
 Copie os arquivos para /var/www/html/ e recarregue a página no navegador.
