@@ -124,5 +124,9 @@ Copie os seguintes arquivos:
 - ```sudo cp site-simples-com-html-e-css-/background.jpg```
 
 - ```sudo cp site-simples-com-html-e-css-/Como-Criar-um-SITE-Com-HTML-e-CSS-na-pràtica.png```
+
+Remova o arquivo baixado:
+
+-```sudo rm -rf site-simples-com-html-e-css-/```
   
 Copie os arquivos para /var/www/html/ e recarregue a página no navegador.
