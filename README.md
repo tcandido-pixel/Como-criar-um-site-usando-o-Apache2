@@ -88,3 +88,22 @@ Digite um exemplo simples em HTML:
 ```
 Salve (CTRL + O + ENTER) e saia (CTRL + X).
 Atualize a página no navegador para ver o resultado.
+
+---
+
+# 6️⃣ Usar um site pronto do GitHub
+
+Antes de clonar, instale o Git:
+
+- sudo apt install git -y
+
+Clone um site pronto (exemplo do Matheus):
+
+- sudo git clone https://github.com/matheusmanuel/site-simples-com-html-e-css-.git
+
+Acesse a pasta clonada:
+
+- cd site-simples-com-html-e-css-
+- ls
+  
+Copie os arquivos para /var/www/html/ e recarregue a página no navegador.
