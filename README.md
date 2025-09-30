@@ -9,7 +9,7 @@ Este guia explica como instalar e configurar o Apache2 em uma máquina virtual L
 Baixe e instale uma distribuição Linux no VirtualBox (ex.: Ubuntu ou Debian).
 
 Após a instalação, abra o terminal com:
-CTRL + ALT + T
+- CTRL + ALT + T
 
 ---
 
