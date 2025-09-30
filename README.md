@@ -78,7 +78,7 @@ Crie um novo arquivo index.html:
 
 Digite um exemplo simples em HTML:
 
-=<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <title>Meu Site</title>
