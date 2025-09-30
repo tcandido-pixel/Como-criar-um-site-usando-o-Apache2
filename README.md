@@ -105,5 +105,13 @@ Acesse a pasta clonada:
 
 - cd site-simples-com-html-e-css-
 - ls
+
+Volte para a pasta anterior: 
+
+- cd ..
+  
+Apague o arquivo index.html
+
+- sudo rm -rf index.html
   
 Copie os arquivos para /var/www/html/ e recarregue a página no navegador.
