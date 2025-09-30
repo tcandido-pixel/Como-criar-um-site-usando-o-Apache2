@@ -17,7 +17,7 @@ Após a instalação, abra o terminal com:
 
 Digite o comando abaixo para atualizar o sistema:
 
-sudo apt update && sudo apt upgrade -y
+- sudo apt update && sudo apt upgrade -y
 
 ---
 
@@ -25,18 +25,19 @@ sudo apt update && sudo apt upgrade -y
 
 Instale o Apache2:
 
-sudo apt install apache2 -y
+- sudo apt install apache2 -y
 
 
 Inicie e habilite o serviço:
 
-sudo systemctl start apache2
-sudo systemctl enable apache2
+- sudo systemctl start apache2
+  
+- sudo systemctl enable apache2
 
 
 Verifique se está em execução:
 
-systemctl status apache2
+- systemctl status apache2
 
 ---
 
@@ -44,15 +45,16 @@ systemctl status apache2
 
 Para saber o IP local da máquina:
 
-ip a
+- ip a
 
 
 Agora, abra o navegador e acesse:
 
-http://seu-ip-local
+- http://seu-ip-local
+  
 ou
 
-http://localhost/
+- http://localhost/
 
 Você verá a página padrão do Apache2. ✅
 
