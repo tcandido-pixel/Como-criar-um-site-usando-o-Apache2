@@ -113,6 +113,12 @@ Volte para a pasta anterior:
 Apague o arquivo index.html:
 
 - sudo rm -rf index.html
+  
+Copie os seguintes arquivos:
+
+- ```sudo cp site-simples-com-html-e-css-/index.html```
+
+- sudo cp site-simples-com-html-e-css-/style.css
 
 - 
   
