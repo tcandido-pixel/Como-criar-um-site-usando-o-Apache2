@@ -77,7 +77,7 @@ Crie um novo arquivo index.html:
 - sudo nano index.html
 
 Digite um exemplo simples em HTML:
-
+```
 <html>
 <head><tittle>titulo</tittle>
 </head>
@@ -85,6 +85,6 @@ Digite um exemplo simples em HTML:
 <h1>Bem vindo a minha primeira pagina HTML</h1>
 </body>
 </html>
-
+```
 Salve (CTRL + O + ENTER) e saia (CTRL + X).
 Atualize a página no navegador para ver o resultado.
