@@ -1,4 +1,4 @@
-# 🚀 Como criar um site usando o Apache2
+# Como criar um site usando o Apache2
 
 Este guia explica como instalar e configurar o Apache2 em uma máquina virtual Linux e publicar um site simples.
 
