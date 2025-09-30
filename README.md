@@ -1,18 +1,59 @@
-# Como criar um site usando o Apache2 
-Primeiro iremos baixar o ubuntu ou qualquer outra distribuição linux para usar no virtual box. Irei usar o debian.
-Depois de instalar o sistema, vamnos abrir o terminal usando as teclas CTRL + ALT + T.
-Agora vamos atualizar o catalaogo digitando o seguinte comando: sudo apt update && sudo apt upgrade -y.
-Depois instale o apache2 digitando o seguinte comando: sudo apt install apache2 -y.
-agora vamos iniciar e habiliatar os serviços digitando primeiro: sudo systemctl start apache2 e depois: sudo systemctl enable apache2.
-verifique se está rodando: systemctl status apache2.
-Agora vamos verificar qual o IP esta rodando o site. No terminal digite: ip a.
-Depois de encontrar o ip local, teste no navegador. irá aparecer um site exemplo. Caso não tenha localizado o seu ip, pode acesar o site digitando http://localhost/.
-Agora iremos fazer alguns exemplos. vamos localizar o diretorio. no terminal digite: cd /var/www/html/. depois iremos listar, digite: ls.
-veja que o site é apenas o index.html. vamos modificar para exemplo de como funciona.
-remova o arquivo com o comando: sudo rm -rf index.html. Agora vamos criar outro arquivo com o mesmo nome e iremos modificar. digite: sudo nano index.html.
-Digite o mesmo codigo simples HTML para teste. depois saia do nano CTRL + X e enter para confirmar e CTRL + O para salvar.
-Atualize a pagina e veja como ficou. 
-Agora iremos melhorar o site com alguns exemplos disponiveis na internet. escolhi o site pronto do matheus.(https://github.com/matheusmanuel/site-simples-com-html-e-css-)
-Para instalar, iremos fazer a clonagem dos arquivos. mas antes vamos instalar o github com o seguinte comando: sudo apt install git -y.
-agora vamos fazer a clonagem. no github, em code, copie o https. digite o comando sudo git clone https://github.com/matheusmanuel/site-simples-com-html-e-css-.git.
-pos baixar, veja o arquivo (comando ls), para visualizar dentro do arquivo digite cd site-simples-com-html-e-css-. pos isso de um ls.
+# 🚀 Como criar um site usando o Apache2
+
+Este guia explica como instalar e configurar o Apache2 em uma máquina virtual Linux e publicar um site simples.
+
+---
+
+# 1️⃣ Preparação do ambiente
+
+Baixe e instale uma distribuição Linux no VirtualBox (ex.: Ubuntu ou Debian).
+
+Após a instalação, abra o terminal com:
+CTRL + ALT + T
+
+---
+
+# 2️⃣ Atualizar pacotes
+
+Digite o comando abaixo para atualizar o sistema:
+
+sudo apt update && sudo apt upgrade -y
+
+---
+
+# 3️⃣ Instalar e habilitar o Apache2
+
+Instale o Apache2:
+
+sudo apt install apache2 -y
+
+
+Inicie e habilite o serviço:
+
+sudo systemctl start apache2
+sudo systemctl enable apache2
+
+
+Verifique se está em execução:
+
+systemctl status apache2
+
+---
+
+# 4️⃣ Testar o servidor
+
+Para saber o IP local da máquina:
+
+ip a
+
+
+Agora, abra o navegador e acesse:
+
+http://seu-ip-local
+ou
+
+http://localhost/
+
+Você verá a página padrão do Apache2. ✅
+
+---
