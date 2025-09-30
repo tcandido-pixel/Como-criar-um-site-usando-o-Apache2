@@ -78,7 +78,7 @@ Crie um novo arquivo index.html:
 
 Digite um exemplo simples em HTML:
 
-"<!DOCTYPE html>
+=<!DOCTYPE html>
 <html>
   <head>
     <title>Meu Site</title>
@@ -86,7 +86,7 @@ Digite um exemplo simples em HTML:
   <body>
     <h1>Funcionou! 🚀</h1>
   </body>
-</html>"
+</html>=
 
 Salve (CTRL + O + ENTER) e saia (CTRL + X).
 Atualize a página no navegador para ver o resultado.
