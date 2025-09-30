@@ -78,15 +78,13 @@ Crie um novo arquivo index.html:
 
 Digite um exemplo simples em HTML:
 
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Meu Site</title>
-  </head>
-  <body>
-    <h1>Funcionou! 🚀</h1>
-  </body>
-</html>=
+*<html>
+*<head><tittle>titulo</tittle>
+*</head>
+*<body>
+*<h1>Bem vindo a minha primeira pagina HTML</h1>
+*</body>
+*</html>
 
 Salve (CTRL + O + ENTER) e saia (CTRL + X).
 Atualize a página no navegador para ver o resultado.
