@@ -2,7 +2,7 @@
 
 Este guia explica como instalar e configurar o Apache2 em uma máquina virtual Linux e publicar um site simples.
 
----
+---------------------------------------------------------------------------------------------------------------
 
 # 1️⃣ Preparação do ambiente
 
