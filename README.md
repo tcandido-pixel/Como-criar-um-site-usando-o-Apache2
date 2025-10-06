@@ -130,3 +130,8 @@ Remova o arquivo baixado:
 - ```sudo rm -rf site-simples-com-html-e-css-/```
   
 Copie os arquivos para /var/www/html/ e recarregue a página no navegador.
+-----
+
+* Configure dois sites
+
+https://github.com/tcandido-pixel/Como-configurar-dois-sites-usando-Apache2.git
